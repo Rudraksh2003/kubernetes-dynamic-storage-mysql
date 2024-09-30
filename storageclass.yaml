@@ -1,0 +1,10 @@
+# storageclass.yaml
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast-storage  # Name of the storage class
+provisioner: k8s.io/minikube-hostpath  # Minikube's local storage provisioner
+parameters:
+  type: pd-standard  # Optional: Define disk type (if needed for other environments)
+  fsType: ext4       # Filesystem type
+

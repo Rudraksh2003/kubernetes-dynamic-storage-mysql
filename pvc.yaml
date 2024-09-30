@@ -1,0 +1,14 @@
+# pvc.yaml
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-pvc  # Name of the PVC
+spec:
+  accessModes:
+    - ReadWriteOnce  # Access mode
+  storageClassName: fast-storage  # Use the StorageClass defined earlier
+  resources:
+    requests:
+      storage: 1Gi  # Request 1 GB of storage
+
+
