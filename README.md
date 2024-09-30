@@ -1,6 +1,6 @@
 # kubernetes-dynamic-storage-mysql
 ---
-![Project Banner](https://link-to-your-banner-image.com/banner.png)
+![Project Banner](https://github.com/Rudraksh2003/kubernetes-dynamic-storage-mysql/blob/main/whiteboard_20240930T130702.png)
 
 ---
 
